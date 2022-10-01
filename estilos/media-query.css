@@ -1,0 +1,40 @@
+@import "UTF-8";
+
+@media screen and (min-width:1300px){ 
+    main{
+        width: 100%;
+    }
+    .logo{
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        width: 12em;
+    }
+    .frame{
+        float: left;
+        width: 45%;
+        margin-top: 140px; 
+        padding-left: 100px;
+    }
+    .conteudo{
+        top: 55%;
+        float: right;
+        width: 45%;
+        margin-top: 12em;
+    }
+    .conteudo h1{
+        text-align: justify;
+        margin-right: 6em;
+        font-size: 2.5em;
+    }
+    .conteudo p{
+        font-size: 1.4em;
+        margin-left: 0.09999999999999964em;
+        text-align: justify;
+    }
+    .icon{
+        position: absolute;
+        left: 80%;
+        top: 82%;
+    }
+}
