@@ -14,18 +14,21 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;  
-     
+    background-size: cover; 
+    
 }
 body{
     height: 98vh;
     position: relative;
     background-color: var(--cor1);
+    overflow: hidden;
 }
 main{
     position: relative;
     min-width: 375px;
     max-width: 1440px;
     text-align: center;
+    
 }
 .logo{
     position: relative;
@@ -78,9 +81,8 @@ svg:hover{
     fill: var(--cor2);
 }
 footer{
-    position: absolute;
-    top: 95%;
-    left: 50%;
+    position: relative;
+    text-align: center;
     margin: 19px;
     color: white;
     font-size: 0.7em;
